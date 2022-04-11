@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://binks.id.au/sitemap.xml
