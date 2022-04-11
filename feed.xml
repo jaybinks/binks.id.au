@@ -3,7 +3,7 @@
     <title>www.binks.id.au</title>
     <link href="https://binks.id.au/feed.xml" rel="self" />
     <link href="https://binks.id.au" />
-    <updated>2022-04-11T15:14:45+10:00</updated>
+    <updated>2022-04-11T15:53:04+10:00</updated>
     <author>
         <name>Jay Binks</name>
     </author>
@@ -19,11 +19,11 @@
             <category term="AusNOG 2021"/>
             <category term="AusNOG"/>
 
-        <updated>2022-04-11T15:14:45+10:00</updated>
+        <updated>2022-04-11T15:53:04+10:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://binks.id.au/media/posts/1/Slide1-2.jpeg" alt="Building a (Mostly OpenSource) Tier 1 Carrier Voice network - AusNOG 2021 Final" />
-                    <p><img loading="lazy" src="https://internet.asn.au/wp-content/uploads/2022/02/Update-AusNOG-Logo.png" data-is-external-image="true"  alt="AusNOG - Internet Association of Australia" width="285" height="114"></p>
+                    <figure class="align-right"><img loading="lazy"  src="https://internet.asn.au/wp-content/uploads/2022/02/Update-AusNOG-Logo.png" data-is-external-image="true"  alt="AusNOG - Internet Association of Australia" width="285" height="114"></figure>
 <p>Last week, at AusNOG 2021, I gave the following presentation</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
 <figure class="gallery__item"><a href="https://binks.id.au/media/posts/1/gallery/20220407_101155.jpg" data-size="4032x3024"><img loading="lazy" src="https://binks.id.au/media/posts/1/gallery/20220407_101155-thumbnail.jpg" alt="" width="720" height="540"></a></figure>
@@ -36,7 +36,7 @@
         <content type="html">
             <![CDATA[
                     <img src="https://binks.id.au/media/posts/1/Slide1-2.jpeg" alt="Building a (Mostly OpenSource) Tier 1 Carrier Voice network - AusNOG 2021 Final" />
-                <p><img loading="lazy" src="https://internet.asn.au/wp-content/uploads/2022/02/Update-AusNOG-Logo.png" data-is-external-image="true"  alt="AusNOG - Internet Association of Australia" width="285" height="114"></p>
+                <figure class="align-right"><img loading="lazy"  src="https://internet.asn.au/wp-content/uploads/2022/02/Update-AusNOG-Logo.png" data-is-external-image="true"  alt="AusNOG - Internet Association of Australia" width="285" height="114"></figure>
 <p>Last week, at AusNOG 2021, I gave the following presentation</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
 <figure class="gallery__item"><a href="https://binks.id.au/media/posts/1/gallery/20220407_101155.jpg" data-size="4032x3024"><img loading="lazy" src="https://binks.id.au/media/posts/1/gallery/20220407_101155-thumbnail.jpg" alt="" width="720" height="540"></a></figure>
@@ -44,7 +44,7 @@
 <figure class="gallery__item"><a href="https://binks.id.au/media/posts/1/gallery/277574465_1594555530920951_6404289933280100233_n.jpeg" data-size="2048x1536"><img loading="lazy" src="https://binks.id.au/media/posts/1/gallery/277574465_1594555530920951_6404289933280100233_n-thumbnail.jpeg" alt="" width="720" height="540"></a></figure>
 </div></div>
 
-<p> </p>
+<figure class="post__image align-center"><a href="https://binks.id.au/Building a (Mostly OpenSource) Tier 1 Carrier Voice network - AusNOG 2021 Final.pdf" target="_blank" rel="noopener noreferrer"></a><a href="https://binks.id.au/Building a (Mostly OpenSource) Tier 1 Carrier Voice network - AusNOG 2021 Final.pdf" title="Building a (Mostly OpenSource) Tier 1 Carrier Voice network - AusNOG 2021 Final" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://binks.id.au/media/posts/1/Slide1-slide.jpeg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://binks.id.au/media/posts/1/responsive/Slide1-slide-xs.jpeg 300w ,https://binks.id.au/media/posts/1/responsive/Slide1-slide-sm.jpeg 480w ,https://binks.id.au/media/posts/1/responsive/Slide1-slide-md.jpeg 768w ,https://binks.id.au/media/posts/1/responsive/Slide1-slide-lg.jpeg 1024w ,https://binks.id.au/media/posts/1/responsive/Slide1-slide-xl.jpeg 1360w ,https://binks.id.au/media/posts/1/responsive/Slide1-slide-2xl.jpeg 1600w"  alt="Building a (Mostly OpenSource) Tier 1 Carrier Voice network - AusNOG 2021 Final" width="550" height="309"></figure></a></p>
             ]]>
         </content>
     </entry>
