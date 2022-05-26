@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" href="css/queries.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    
 </head>
 <body id="top">
 <!--[if lt IE 8]>
@@ -326,7 +329,7 @@
 
         <p>Too this end, we have organised busses to transport people from Petrie train station, and the Eatons hill hotel.<br>We have also negotiated a group booking at the Eatons Hill hotel for anyone looking for accomodation.</p>
     </div>
-    <div id="map-canvas"></div>
+    <div id="map-canvas" style="filter: grayscale(100%);"></div>
     <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
@@ -335,6 +338,8 @@
                         <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
                     </div>
                 </div>
+
+            
                 <div id="map-content" class="pointer-events-auto">
                     <div class="row">
                         <div class="col-md-6">
@@ -452,12 +457,16 @@
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<!-- <script src="js/jquery.mb.YTPlayer.min.js"></script> -->
 <script src="js/vendor/ouical.js"></script>
+
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
 <script src="js/scripts.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
 <!-- Google Analytics -->
+
+
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -472,6 +481,27 @@
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     //ga('create', 'UA-46465113-4', 'auto');
     //ga('send', 'pageview');
+
+
+
+
+    // Creating map options
+    var mapOptions = {
+        center: [-27.1274,152.80372],
+        zoom: 10
+     }
+        
+    // Creating a map object
+    var map = new L.map('map-canvas', mapOptions);
+    
+    // Creating a Layer object
+    var layer = new     L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+    
+    // Adding layer to the map
+    map.addLayer(layer);
+
+
 </script>
+
 </body>
 </html>
