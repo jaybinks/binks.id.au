@@ -1,6 +1,18 @@
 $(document).ready(function () {
 
-  
+    $('.wp3').waypoint(function () {
+        $('.wp3').addClass('animated fadeInLeft');
+    }, {
+        offset: '75%'
+    });
+
+    $('.wp5').waypoint(function () {
+        $('.wp5').addClass('animated fadeInRight');
+    }, {
+        offset: '75%'
+    });
+
+
     /***************** Initiate Flexslider ******************/
     $('.flexslider').flexslider({
         animation: "slide"
@@ -115,7 +127,7 @@ $(document).ready(function () {
     }
 
     /********************** Embed youtube video *********************/
-    $('.player').YTPlayer();
+    // $('.player').YTPlayer();
 
 
     /********************** Toggle Map Content **********************/
