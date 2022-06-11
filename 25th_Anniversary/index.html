@@ -93,6 +93,18 @@
         overflow: hidden;
         padding-bottom: 0px;
     }
+
+    .herotext {
+        font-size: 65px;
+        color: #FFFFFF;
+        /* background: #FFFFFF; */
+        text-shadow: 1px 3px 3px #000000, 1px 4px 5px #aba8a8;
+        font-family: 'Montez', cursive;
+    }
+
+    #herotext2 {
+        font-size:32px;
+    }
     
 </style>
 
@@ -126,20 +138,14 @@
             </div>
         </header>
     </section>
-    <style>
-        #herotext {
-            font-size: 65px;
-            color: #FFFFFF;
-            /* background: #FFFFFF; */
-            text-shadow: 1px 3px 3px #000000, 1px 4px 5px #aba8a8;
-            font-family: 'Montez', cursive;
-        }
-    </style>
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content text-center">
-                    <h1 id="herotext">Jay & Melissa want to celebrate 25 years together</h1>
+                    <h1 class="herotext">Jay & Melissa are celebrating 25 years together,</h1>
+                    <h1 class="herotext" id="herotext2"> and would love you to join them</h1>
                 </div>
             </div>
         </div>
@@ -203,22 +209,28 @@
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div id="event_text">
                     
-                    <h3>27th September 2022</h3>
+                    <h3>ANNIVERSARY CELEBRATION</h3>
+
+                    
+                    <p><b>17th September 2022</b><br>
+                    3:30pm - Late</p>
+
                     <p>1 David Close, Ocean View QLD</p>
 
-                    <h5>Anniversary Celebration <span class="time">3:30pm - Late</span></h5>
+                    
                     <p>Starting in the afternoon, we intend to celebrate with a relaxed family feel.<br>
                         Chatting, Playing games and having a beverage, outdoor in the spring afternoon sun.  </p>
                     
                     
-                    <h3 >Ugh... dress codes?</h3>
+                    <h5>Dress code</h5>
                         <p>
-                            <strong>Garden Party</strong>
+                            <a href="https://www.newidea.com.au/garden-party-dress-code" target="garden_party"><strong>Garden Party Attire</strong></a>
+                            THIS <<<< NOT WHITE
                             <br>
-                            AKA semi-formal, but your going to be on grass / gravel.
+                            Similar to what youd wear at the races,, but your going to be on grass / gravel.
                             Ladies, watch out for those stiletto heels, possibly opt for wedges
     
-                            https://www.newidea.com.au/garden-party-dress-code
+                            </a>
                         </p>
 
 
@@ -227,7 +239,7 @@
                     </a>-->
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 rightcol" id="event-image" style="background-image: url('img/outside.jpg');-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;">
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol" id="event-image" style="background-image: url('img/IMG_6632-1.webp');-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;">
                 
             </div>
         </div>
@@ -270,10 +282,11 @@
 
             <div class="text-center">
                 <h3>How do I get there?</h3>
-                <p>We recognise that clear mountain is a bit of a hike, and we really want people to let their hair down and not be concerned with driving back home.</p>
+                <p>We recognise that Clear Mountain is a bit of a hike, and we really want people to let their hair down and not be concerned with driving back home.</p>
         
-                <p>Too this end, we have organised busses to transport people from Petrie train station, and the Eatons hill hotel.<br>
-                    We have also negotiated a group booking at the <a style="color:rgba(13, 87, 173, 0.928)" target="_accom" href="https://bookings.travelclick.com/102877?Adults=1&Children=0&DateIn=09/16/2022&DateOut=09/18/2022#/accommodation/room">Eatons Hill hotel for anyone looking for accomodation.</a></p>
+                <p>Too this end, we are planning to organise a bus possibly between Petrie train station, the Eatons hill hotel and our venue.<br>
+                    We have also looking at a possible group discount at the <a style="color:rgba(13, 87, 173, 0.928)" target="_accom" href="https://bookings.travelclick.com/102877?Adults=1&Children=0&DateIn=09/16/2022&DateOut=09/18/2022#/accommodation/room">Eatons Hill hotel.</a></br>
+                    If this of interest to you, please contact us so we can know that it would be appreciated.</p>
             </div>    
     </div>
 
@@ -385,7 +398,7 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP ASAP</p>
+                <p>Please RSVP by 17th July 2022</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
@@ -422,6 +435,27 @@
                                                                 required>
                             </div>
                         </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input name="dietries" id="dietries"
+                                                                class="" min="0"
+                                                                placeholder="Dietries"
+                                                                >
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><textarea name="Notes" id="Notes"
+                                                                class="" min="0"
+                                                                placeholder="Notes"
+                                                                ></textarea>
+                            </div>
+                        </div>
+
+
+
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
