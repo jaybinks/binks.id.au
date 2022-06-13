@@ -120,7 +120,7 @@
         padding-bottom: 0px
     }
 
-    #notes {
+    .rsvp-form textarea {
         border: none;
         outline: none;
         padding-left: 68px;
@@ -467,18 +467,18 @@
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i>
                                 <select type="coming" name="coming" id="coming" required>
-                                    <option>We are excited to come</option>
-  <option>We hate you and wont be there</option>
-                                    </select>
+                                    <option>We are excited to come.</option>
+                                    <option>Sorry, we cant make it.</option>
+                                </select>
                             </div>
                         </div>
 
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-key"></i><input name="dietries" id="dietries"
+                                <i class="fa fa-key"></i><textarea name="dietries" id="dietries"
                                                                 class="" min="0"
-                                                                placeholder="Dietries"
-                                                                >
+                                                                placeholder="Dietary requirements"
+                                                                ></textarea>
                             </div>
                         </div>
 
@@ -486,7 +486,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><textarea name="notes" id="notes"
                                                                 class="" min="0"
-                                                                placeholder="Notes"
+                                                                placeholder="Notes (Im interested in the bus, or accomodation)"
                                                                 ></textarea>
                             </div>
                         </div>
@@ -498,7 +498,7 @@
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
                     <button class="btn-fill rsvp-btn">
-                        Yes, we are coming for sure!
+                        RSVP 
                     </button>
                 </form>
             </div>
